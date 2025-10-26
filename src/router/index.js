@@ -59,7 +59,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/INFORMATIKA2025/"),
   routes,
 
   scrollBehavior(to, from, savedPosition) {

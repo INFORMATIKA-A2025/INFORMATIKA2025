@@ -1,11 +1,11 @@
 <template>
   <div class="fixed top-0 w-full z-50 transition-all duration-300" :class="[isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg' : 'bg-transparent']" v-scroll="handleScroll">
     <div class="mx-auto flex h-16 max-w-screen-xl items-center px-4 sm:px-6 lg:px-8">
-      <a class="flex items-center" href="/">
+      <router-link class="flex items-center" to="/">
         <span class="sr-only">Home</span>
 
         <img src="../assets/STTC.png" alt="STTC" class="w-auto transition-all duration-300 pr-110" :class="[isScrolled ? 'h-10 md:h-42' : 'h-42 md:h-42']" />
-      </a>
+      </router-link>
 
       <div class="flex flex-1 items-center justify-end md:justify-between">
         <nav aria-label="Global" class="hidden md:block">
