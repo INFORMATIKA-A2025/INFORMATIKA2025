@@ -4,7 +4,7 @@
       <router-link class="flex items-center" to="/">
         <span class="sr-only">Home</span>
 
-        <img src="../assets/STTC.png" alt="STTC" class="w-auto transition-all duration-300" :class="[isScrolled ? 'h-10 md:h-42' : 'h-42 md:h-42']" />
+        <img src="../assets/STTC.png" alt="STTC" class="w-auto transition-all duration-300" :class="[isScrolled ? 'h-35 md:h-42' : 'h-42 md:h-42']" />
       </router-link>
 
       <div class="flex flex-1 items-center justify-end md:justify-between md:pl-110">

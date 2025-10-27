@@ -2,7 +2,7 @@
   <footer class="bg-gray-200 shadow-xl/30">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-        <div class="flex justify-center sm:justify-start mb-4 sm:mb-0 max-w-xs mx-auto sm:mx-0">
+        <div class="flex justify-center sm:justify-start mb-4 sm:mb-0 max-w-xs mx-auto sm:mx-0 pl-12">
           <router-link to="/">
             <img src="../assets/STTC.png" alt="Footer Logo" class="w-full h-32 sm:h-32" />
           </router-link>

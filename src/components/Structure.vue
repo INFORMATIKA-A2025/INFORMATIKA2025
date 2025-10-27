@@ -54,6 +54,8 @@ import ImageDewi from "@/assets/structure/sekertaris.jpg";
 import ImagePTI from "@/assets/structure/pti.jpg";
 import ImageAkidah from "@/assets/structure/akidah.jpg";
 import ImageDika from "@/assets/structure/dika.jpg";
+import ImageAlwi from "@/assets/structure/alwi.jpg";
+import ImageAziz from "@/assets/structure/aziz.jpg";
 
 export default {
   components: {
@@ -85,11 +87,11 @@ export default {
       { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", contact: "https://wa.me/6285147442953", instagram: "", description: "Publikasi, Dokumentasi, Desain (PDD)" },
       { url: ImageDika, title: "Dhika Zahira Prasetya", contact: "https://wa.me/6287822758195", instagram: "", description: "Publikasi, Dokumentasi, Desain (PDD)" },
       { url: ImagePTI, title: "Anitia Rahma", contact: "https://wa.me/6285862970187", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Teknologi Informasi" },
-      { url: Image1, title: "Alwi Hidayat", contact: "https://wa.me/6283133253620", instagram: "", description: "Penanggung Jawab Mata Kuliah - Kalkulus I" },
+      { url: ImageAlwi, title: "Alwi Hidayat", contact: "https://wa.me/6283133253620", instagram: "", description: "Penanggung Jawab Mata Kuliah - Kalkulus I" },
       { url: Image1, title: "Abdul Rojak", contact: "https://wa.me/6285659848074", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Rekayasa Desain" },
       { url: Image1, title: "Ridwan Muttaqin", contact: "https://wa.me/6282113811756", instagram: "", description: "Penanggung Jawab Mata Kuliah - Dasar-Dasar Pemrograman" },
       { url: ImageAkidah, title: "Lindi Sepdiyana", contact: "https://wa.me/6281223158855", instagram: "", description: "Penanggung Jawab Mata Kuliah - Akidah" },
-      { url: Image1, title: "Abdul Aziz", contact: "https://wa.me/6289519560915", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Kewirausahaan" },
+      { url: ImageAziz, title: "Abdul Aziz", contact: "https://wa.me/6289519560915", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Kewirausahaan" },
       { url: Image1, title: "Dwi Saputra", contact: "https://wa.me/6285798154399", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Indonesia" },
       { url: ImageDika, title: "Dhika Zahira Prasetya", contact: "https://wa.me/6287822758195", instagram: "", description: "Penanggung Jawab Mata Kuliah - Fisika Dasar" },
       { url: Image1, title: "Dinar Herawan", contact: "https://wa.me/6281221515187", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pancasila" },
