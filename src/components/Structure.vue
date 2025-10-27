@@ -56,6 +56,7 @@ import ImageAkidah from "@/assets/structure/akidah.jpg";
 import ImageDika from "@/assets/structure/dika.jpg";
 import ImageAlwi from "@/assets/structure/alwi.jpg";
 import ImageAziz from "@/assets/structure/aziz.jpg";
+import ImageDwi from "@/assets/structure/dwi.jpg";
 
 export default {
   components: {
@@ -92,7 +93,7 @@ export default {
       { url: Image1, title: "Ridwan Muttaqin", contact: "https://wa.me/6282113811756", instagram: "", description: "Penanggung Jawab Mata Kuliah - Dasar-Dasar Pemrograman" },
       { url: ImageAkidah, title: "Lindi Sepdiyana", contact: "https://wa.me/6281223158855", instagram: "", description: "Penanggung Jawab Mata Kuliah - Akidah" },
       { url: ImageAziz, title: "Abdul Aziz", contact: "https://wa.me/6289519560915", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Kewirausahaan" },
-      { url: Image1, title: "Dwi Saputra", contact: "https://wa.me/6285798154399", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Indonesia" },
+      { url: ImageDwi, title: "Dwi Saputra", contact: "https://wa.me/6285798154399", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Indonesia" },
       { url: ImageDika, title: "Dhika Zahira Prasetya", contact: "https://wa.me/6287822758195", instagram: "", description: "Penanggung Jawab Mata Kuliah - Fisika Dasar" },
       { url: Image1, title: "Dinar Herawan", contact: "https://wa.me/6281221515187", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pancasila" },
       { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", contact: "https://wa.me/6285147442953", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Inggris" },
