@@ -34,7 +34,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 
-import Image1 from "@/assets/coming.jpg";
+import soon from "@/assets/coming.jpg";
+import Image1 from "@/assets/galery/foto-1.jpg";
+import Image2 from "@/assets/galery/foto-2.jpg";
+import Image3 from "@/assets/galery/foto-3.jpg";
+import Image4 from "@/assets/galery/foto-4.jpg";
+import Image5 from "@/assets/galery/foto-5.jpg";
+import Image6 from "@/assets/galery/foto-6.jpg";
 
 import { Autoplay, Navigation, EffectCoverflow, Pagination } from "swiper/modules";
 
@@ -79,7 +85,7 @@ export default {
         },
       },
     };
-    const slides = [{ url: Image1 }, { url: Image1 }, { url: Image1 }, { url: Image1 }, { url: Image1 }, { url: Image1 }];
+    const slides = [{ url: Image1 }, { url: Image2 }, { url: Image3 }, { url: Image4 }, { url: Image5 }, { url: Image6 }];
     return {
       modules: [Autoplay, Navigation, EffectCoverflow],
       slides,

@@ -4,10 +4,10 @@
       <router-link class="flex items-center" to="/">
         <span class="sr-only">Home</span>
 
-        <img src="../assets/STTC.png" alt="STTC" class="w-auto transition-all duration-300 pr-110" :class="[isScrolled ? 'h-10 md:h-42' : 'h-42 md:h-42']" />
+        <img src="../assets/STTC.png" alt="STTC" class="w-auto transition-all duration-300" :class="[isScrolled ? 'h-10 md:h-42' : 'h-42 md:h-42']" />
       </router-link>
 
-      <div class="flex flex-1 items-center justify-end md:justify-between">
+      <div class="flex flex-1 items-center justify-end md:justify-between md:pl-110">
         <nav aria-label="Global" class="hidden md:block">
           <ul class="flex items-center gap-6 text-base font-medium">
             <li><router-link to="/home#about-section" class="nav-link">About</router-link></li>
@@ -46,7 +46,7 @@
         <router-link @click="closeMenu" to="/home#contact-section" class="mobile-nav-link">Contact</router-link>
 
         <a href="https://www.instagram.com/informatika.a_llstt_cipasung" target="_blank" rel="noopener noreferrer" @click="closeMenu" class="mobile-nav-link flex items-center gap-2">
-          <img src="../assets/instagram.png" alt="ig_kelas" class="w-6 h-6" /> Instagram
+          <img src="../assets/instagram.png" alt="ig_kelas" class="w-6 h-6" />
         </a>
       </div>
     </div>
@@ -106,6 +106,6 @@ export default {
 .mobile-nav-link.router-link-exact-active {
   font-weight: 600;
   background-color: #ecfdf5;
-  color: #059669;
+  color: #3b82f6;
 }
 </style>
