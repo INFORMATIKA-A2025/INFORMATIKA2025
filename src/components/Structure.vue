@@ -26,10 +26,7 @@
           </div>
 
           <div class="flex justify-center pt-3 gap-30">
-            <a href="https://wa.me/628123456789" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/whatsapp.png" alt="WA" width="30" />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <a :href="slide.instagram" target="_blank" rel="noopener noreferrer">
               <img src="../assets/instagram.png" alt="IG" width="30" />
             </a>
           </div>
@@ -46,7 +43,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Image1 from "@/assets/coming.jpg";
 import ImageRijal from "@/assets/structure/ijal.jpg";
 import ImageAlfi from "@/assets/structure/alfi.png";
 import ImageAlni from "@/assets/structure/bendahara.jpg";
@@ -57,6 +53,9 @@ import ImageDika from "@/assets/structure/dika.jpg";
 import ImageAlwi from "@/assets/structure/alwi.jpg";
 import ImageAziz from "@/assets/structure/aziz.jpg";
 import ImageDwi from "@/assets/structure/dwi.jpg";
+import ImageRidwan from "@/assets/structure/ridwanfixx.jpg";
+import ImageOjak from "@/assets/structure/ojak.jpg";
+import ImageDinar from "@/assets/structure/dinar.jpg";
 
 export default {
   components: {
@@ -82,21 +81,21 @@ export default {
       },
     };
     const slides = [
-      { url: ImageRijal, title: "Muhammad Rizal Saibulwafa", contact: "https://wa.me/6282124972310", instagram: "", description: "Komisariat Mahasiswa (Kosma) " },
-      { url: ImageAlni, title: "Alni Nofiani", contact: "https://wa.me/6281210609390", instagram: "", description: "Bendahara " },
-      { url: ImageDewi, title: "Dewi Suryaningsih", contact: "https://wa.me/6285701420240", instagram: "", description: "Sekertaris" },
-      { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", contact: "https://wa.me/6285147442953", instagram: "", description: "Publikasi, Dokumentasi, Desain (PDD)" },
-      { url: ImageDika, title: "Dhika Zahira Prasetya", contact: "https://wa.me/6287822758195", instagram: "", description: "Publikasi, Dokumentasi, Desain (PDD)" },
-      { url: ImagePTI, title: "Anitia Rahma", contact: "https://wa.me/6285862970187", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Teknologi Informasi" },
-      { url: ImageAlwi, title: "Alwi Hidayat", contact: "https://wa.me/6283133253620", instagram: "", description: "Penanggung Jawab Mata Kuliah - Kalkulus I" },
-      { url: Image1, title: "Abdul Rojak", contact: "https://wa.me/6285659848074", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Rekayasa Desain" },
-      { url: Image1, title: "Ridwan Muttaqin", contact: "https://wa.me/6282113811756", instagram: "", description: "Penanggung Jawab Mata Kuliah - Dasar-Dasar Pemrograman" },
-      { url: ImageAkidah, title: "Lindi Sepdiyana", contact: "https://wa.me/6281223158855", instagram: "", description: "Penanggung Jawab Mata Kuliah - Akidah" },
-      { url: ImageAziz, title: "Abdul Aziz", contact: "https://wa.me/6289519560915", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pengantar Kewirausahaan" },
-      { url: ImageDwi, title: "Dwi Saputra", contact: "https://wa.me/6285798154399", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Indonesia" },
-      { url: ImageDika, title: "Dhika Zahira Prasetya", contact: "https://wa.me/6287822758195", instagram: "", description: "Penanggung Jawab Mata Kuliah - Fisika Dasar" },
-      { url: Image1, title: "Dinar Herawan", contact: "https://wa.me/6281221515187", instagram: "", description: "Penanggung Jawab Mata Kuliah - Pancasila" },
-      { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", contact: "https://wa.me/6285147442953", instagram: "", description: "Penanggung Jawab Mata Kuliah - Bahasa Inggris" },
+      { url: ImageRijal, title: "Muhammad Rizal Saibulwafa", instagram: "https://www.instagram.com/mhammadrizalswafa", description: "Komisariat Mahasiswa (Kosma) " },
+      { url: ImageAlni, title: "Alni Nofiani", instagram: "https://www.instagram.com/allniii02", description: "Bendahara " },
+      { url: ImageDewi, title: "Dewi Suryaningsih", instagram: "https://www.instagram.com/dewsrnn", description: "Sekertaris" },
+      { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", instagram: "https://www.instagram.com/allpppii", description: "Publikasi, Dokumentasi, Desain (PDD)" },
+      { url: ImageDika, title: "Dhika Zahira Prasetya", instagram: "https://www.instagram.com/prastya.__", description: "Publikasi, Dokumentasi, Desain (PDD)" },
+      { url: ImagePTI, title: "Anitia Rahma", instagram: "https://www.instagram.com/itsme_iyaw", description: "Penanggung Jawab Mata Kuliah - Pengantar Teknologi Informasi" },
+      { url: ImageAlwi, title: "Alwi Hidayat", instagram: "https://www.instagram.com/alwihidayat57", description: "Penanggung Jawab Mata Kuliah - Kalkulus I" },
+      { url: ImageOjak, title: "Abdul Rojak", instagram: "https://www.instagram.com/abdl_rjak", description: "Penanggung Jawab Mata Kuliah - Pengantar Rekayasa Desain" },
+      { url: ImageRidwan, title: "Ridwan Muttaqin", instagram: "https://www.instagram.com/wannzz080", description: "Penanggung Jawab Mata Kuliah - Dasar-Dasar Pemrograman" },
+      { url: ImageAkidah, title: "Lindi Sepdiyana", instagram: "https://www.instagram.com/lynnnn_synnnn", description: "Penanggung Jawab Mata Kuliah - Akidah" },
+      { url: ImageAziz, title: "Abdul Aziz", instagram: "https://www.instagram.com/abd__azisss", description: "Penanggung Jawab Mata Kuliah - Pengantar Kewirausahaan" },
+      { url: ImageDwi, title: "Dwi Saputra", instagram: "https://www.instagram.com/dwisaputra5162", description: "Penanggung Jawab Mata Kuliah - Bahasa Indonesia" },
+      { url: ImageDika, title: "Dhika Zahira Prasetya", instagram: "https://www.instagram.com/prastya.__", description: "Penanggung Jawab Mata Kuliah - Fisika Dasar" },
+      { url: ImageDinar, title: "Dinar Herawan", instagram: "https://www.instagram.com/herawan_79", description: "Penanggung Jawab Mata Kuliah - Pancasila" },
+      { url: ImageAlfi, title: "Alfiansyah Sibyanurrizki", instagram: "https://www.instagram.com/allpppii", description: "Penanggung Jawab Mata Kuliah - Bahasa Inggris" },
     ];
     return {
       modules: [Navigation, Pagination],
