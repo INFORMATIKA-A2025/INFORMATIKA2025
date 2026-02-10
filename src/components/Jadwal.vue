@@ -49,17 +49,14 @@
 
 <script setup>
 const jadwal = [
-  { kode: "PIM-", hari: "1 - Senin", waktu: "08.00 - 09.40", matkul: "Pengantar Teknologi Informasi", sks: 2, dosen: "Puji Imam Muttaqien, S.Kom., M.Si.", ruang: "B203", status: "Blended" },
-  { kode: "SSC-", hari: "2 - Selasa", waktu: "09.00 - 10.40", matkul: "Kalkulus I", sks: 2, dosen: "Sahara S Choeriyah, S.Kom., M.M.", ruang: "B203", status: "Offline" },
-  { kode: "AFH-", hari: "2 - Selasa", waktu: "14.00 - 16.30", matkul: "Dasar-Dasar Pemrograman", sks: 3, dosen: "Adittia Fattah, S.T., M.Kom.", ruang: "Labkom 2", status: "Offline" },
-  { kode: "MSJ-", hari: "3 - Rabu", waktu: "10.40 - 12.20", matkul: "Pengantar Rekayasa Desain", sks: 2, dosen: "Mohammad Sabar Jamil, M.T.", ruang: "B202", status: "Offline" },
-  { kode: "ISI-", hari: "3 - Rabu", waktu: "14.00 - 14.50", matkul: "Akidah", sks: 1, dosen: "Hj. Indri Silpiani, M.Pd.", ruang: "B201", status: "Offline" },
-  { kode: "SSN-", hari: "4 - Kamis", waktu: "10.50 - 12.30", matkul: "Pengantar Kewirausahaan", sks: 2, dosen: "Sinta Siti Nuriah, S.Kom.", ruang: "B203", status: "Offline" },
-  { kode: "ACH-", hari: "4 - Kamis", waktu: "13.30 - 15.10", matkul: "Bahasa Indonesia", sks: 2, dosen: "Ajeng Sabarini Muslimah, M.T.", ruang: "B102", status: "Blended" },
-  { kode: "ACH-", hari: "5 - Jum’at", waktu: "08.00 - 09.30", matkul: "Pengajian Rutin", sks: 0, dosen: "Drs. K.H. Abdul Chobir, M.T.", ruang: "Masjid", status: "Offline" },
-  { kode: "HSN-", hari: "5 - Jum’at", waktu: "09.30 - 11.10", matkul: "Fisika Dasar", sks: 2, dosen: "Hamka Surya Nugraha, S.T.P., M.Kom.", ruang: "B301", status: "Offline" },
-  { kode: "IHS-", hari: "6 - Sabtu", waktu: "10.20 - 12.00", matkul: "Pancasila", sks: 2, dosen: "Ita Hidayatusa’adah, M.Pd.", ruang: "B201", status: "Offline" },
-  { kode: "WTA-", hari: "6 - Sabtu", waktu: "13.00 - 14.40", matkul: "Bahasa Inggris", sks: 2, dosen: "Wahyu Teri Aripin, M.T.", ruang: "Google Classroom", status: "Online" },
+  { kode: "PIM-", hari: "1 - Senin", waktu: "08.00 - 10.30", matkul: "Arsitektur & Organisasi Komputer", sks: 3, dosen: "Puji Imam Muttaqien., M.Si.", ruang: "B201", status: "Blended" },
+  { kode: "AFH-", hari: "1 - Senin", waktu: "10.30 - 13.00", matkul: "Logika Informatika", sks: 3, dosen: "Adittia Fattah, S.T., M.Kom.", ruang: "B202", status: "Blended" },
+  { kode: "SSC-", hari: "2 - Selasa", waktu: "10.50 - 12.30", matkul: "Kalkulus II", sks: 3, dosen: "Sahara S Choeriyah, S.Kom., M.M.", ruang: "B203", status: "Offline" },
+  { kode: "HMN-", hari: "3 - Rabu", waktu: "08.00 - 10.30", matkul: "Basis Data", sks: 3, dosen: "Hilman Mutaqin, S.T., M.Kom.", ruang: "Labkom 2", status: "Offline" },
+  { kode: "ISI-", hari: "4 - Kamis", waktu: "10.00 - 10.50", matkul: "Fiqih", sks: 1, dosen: "Hj. Indri Silpiani, M.Pd.", ruang: "B201", status: "Offline" },
+  { kode: "NAA-", hari: "4 - Kamis", waktu: "14.00 - 16.30", matkul: "Sistem Digital", sks: 3, dosen: "Nisa Agni Afifah, S.Kom.", ruang: "B302", status: "Offline" },
+  { kode: "IHS-", hari: "6 - Sabtu", waktu: "10.10 - 11.50", matkul: "Pendidikan Kewarganegaraan", sks: 2, dosen: "Ita Hidayatusa'adah, M.Pd.", ruang: "B102", status: "Offline" },
+  { kode: "ZAH-", hari: "6 - Sabtu", waktu: "13.00 - 15.30", matkul: "Matematika Disktrit", sks: 3, dosen: "Zihan Aulia Hendarsyah, S.Kom", ruang: "B302", status: "Offline" },
 ];
 
 const warnaHari = (hari) => {
