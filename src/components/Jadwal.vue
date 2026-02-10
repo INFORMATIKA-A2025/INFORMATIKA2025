@@ -1,6 +1,6 @@
 <template>
   <div class="p-3 md:p-6 bg-white min-h-screen">
-    <h2 id="subjudul" class="animate-bounce animate-infinite flex justify-center text-2xl font-semibold text-gray-900 sm:text-3xl mb-10">SCHEDULE IF-I-A</h2>
+    <h2 id="subjudul" class="animate-bounce animate-infinite flex justify-center text-2xl font-semibold text-gray-900 sm:text-3xl mb-10">SCHEDULE IF-II-A</h2>
 
     <div class="overflow-x-auto bg-white shadow-md rounded-lg">
       <table class="min-w-full border border-gray-300 text-xs sm:text-sm md:text-base">
